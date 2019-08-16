@@ -1,0 +1,25 @@
+server:
+  port: 44444
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+#  redis:
+#    password: 123456
+#    jedis:
+#      pool:
+#        max-wait: 3ms
+logging:
+  level:
+    root: WARN
+  path: /home/itsm/idplogger/
+
+
+
+
+
+
+
+
+
